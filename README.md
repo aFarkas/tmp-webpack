@@ -4,7 +4,7 @@ I have a small entry chunk (index.js) that always loads the app.js (which import
 
 Under some circumstances either special-1.js or special-2.js are loaded, which import app.js as also backbone.
 
-Normally webpack would include Backbone in each of the generated chunks.
+Normally webpack would include Backbone in each of the generated special-* chunks.
 
 This should be optimized:
 
