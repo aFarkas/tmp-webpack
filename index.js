@@ -7,5 +7,6 @@ if(/special-1/.test(location.search)){
 } else if(/special-2/.test(location.search)){
     System.import('./js/special-2');
 } else {
+    System.import('./js/app');
     console.log('no special needed.');
 }

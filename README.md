@@ -12,4 +12,4 @@ So that in general only app.js including jquery is loaded and in case of special
 
 But I can not achieve this: If I use the `CommonsChunkPlugin` I can only achieve that the backbone chunk is merged into the normal app chunk.
 
-How can I solve this problem?
+How can I solve this problem? I would need something to say, that app.js is kind of an entry chunk?

@@ -154,6 +154,7 @@ if(/special-1/.test(location.search)){
 } else if(/special-2/.test(location.search)){
     Promise.all/* import() */([__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.bind(null, 2));
 } else {
+    __webpack_require__.e/* import() */(0/* duplicate */).then(__webpack_require__.bind(null, 0));
     console.log('no special needed.');
 }
 
